@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+
+body {
+  font-family: "Ultra", serif;
+  background-color: rgb(255, 221, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 221, 59, 1) 0%,
+    rgba(0, 232, 252, 1) 100%
+  );
+}
+header {
+  font-size: xx-large;
+}
+h1 {
+  font-size: medium;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  font-family: inherit;
+  margin: 1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  color: white;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.circle {
+  font-size: 2rem;
+}
