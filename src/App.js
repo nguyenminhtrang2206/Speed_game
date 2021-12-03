@@ -106,7 +106,7 @@ class App extends Component {
         {this.state.gameOver && (
           <GameOver score={this.state.score} close={this.closeHandler} />
         )}
-        <header>Speed Game</header>
+        <header>Color Game</header>
         <h1>Your score: {this.state.score}</h1>
         <div className="circles">
           {circles.map((c) => (

@@ -5,7 +5,7 @@
 
 ## Description
 
-Link to game: https://lucid-booth-db0cd2.netlify.app/
+Link to game: https://color-game-trang-nguyen.netlify.app/
 
 ## Screenshot
 
